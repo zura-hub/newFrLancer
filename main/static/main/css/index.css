@@ -10,6 +10,7 @@ body{
 
 .container{
     padding: 20px;
+    overflow:hidden
 }
 
 
@@ -195,7 +196,7 @@ a{
 .carousel {
   position: relative;
   width: 100%;
-  height: 500px; /* Adjust height as needed */
+  height: 100%; /* Adjust height as needed */
   overflow: hidden;
 }
 
@@ -209,6 +210,7 @@ a{
 .carousel-item {
   flex-shrink: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .carousel-item img {
